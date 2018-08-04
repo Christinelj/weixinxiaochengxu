@@ -19,3 +19,8 @@
 .usermotto {
   margin-top: 200px;
 }
+
+.ticket {
+  width: 590rpx;
+  bottom: -100rpx;
+}

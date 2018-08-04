@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "赠送车票",
+  "backgroundTextStyle": "green",
+  
+  "backgroundColor": "#33CC66",
+  "navigationBarBackgroundColor": "#33CC66",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 50
+}
+
+
+  

@@ -15,6 +15,11 @@ Page({
       url: '../logs/logs'
     })
   },
+  showTicketPage: function () {
+    wx.navigateTo({
+      url: '../test/test',
+    })
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({

@@ -10,4 +10,5 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <button class='ticket' type='primary' bindtap='showTicketPage'> 车票 </button>
 </view>

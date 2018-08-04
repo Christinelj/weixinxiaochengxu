@@ -1,0 +1,19 @@
+<!--pages/test/test.wxml-->
+<view class="container">
+  <view class="whiteBackground">
+    <button class="button_title">西安公交专用></button>
+    <image class="pictureCat" src="{{src}}"></image>
+    <button class="button_explain">车票使用说明</button>
+    <text class="price">1</text>
+    <text class="unit">票价(元)</text>
+  </view>
+  <button size="mini" class="button_morevalue">更多票面></button>
+  <view class="bottomBackground">
+    <view class="step">
+      <button class="minus">-</button>
+      <text class="count">1张</text>
+      <button class="plus">+</button>
+    </view>
+    <button class="button_pay">支付1元</button>
+  </view>
+</view>

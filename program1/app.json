@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/测试/测试"
+    ],
+
+  "window": {
+    "backgroundTextStyle": "dark",
+    "backgroundColorBottom": "#000000",
+    "backgroundColor": "#000000",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "测试",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 50
+  }
+}

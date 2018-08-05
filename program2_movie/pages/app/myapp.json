@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "movie": "./movie/movie",
+    "cinema":"./cinema/cinema",
+    "mine":"./mine/mine"
+  }
+}

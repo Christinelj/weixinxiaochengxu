@@ -11,9 +11,9 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.0.4",
+	"libVersion": "2.2.1",
 	"appid": "wx86a223734dcc101c",
-	"projectname": "%E6%B5%8B%E8%AF%952",
+	"projectname": "program2_movie",
 	"isGameTourist": false,
 	"condition": {
 		"search": {

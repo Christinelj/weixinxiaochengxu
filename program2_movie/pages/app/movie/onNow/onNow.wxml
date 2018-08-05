@@ -1,0 +1,46 @@
+<!--pages/app/movie/onNow/onNow.wxml-->
+<view>
+  <image class="advertisingMap" src="{{advertisingMapSrc}}"></image>
+  <view class='prizeBackground'>
+    <button class='promotion'>
+      <image class='prizeMap' src='{{zeroPayMovieSrc}}'></image>
+      <text class='prizetext'>0元看片</text>
+    </button>
+    <button class='promotion'>
+      <image class='prizeMap' src='{{lotteryDrawSrc}}'></image>
+      <text class='prizetext'>1分抽奖</text>
+    </button>
+    <button class='promotion'>
+      <image class='prizeMap' src='{{freePrizeSrc}}'></image>
+      <text class='prizetext'>免费拿奖</text>
+    </button>
+  </view>
+
+  <button class='movieDetail'>
+    <image class='movieMap' src='{{movieOneSrc}}'></image>
+    <view class='introduction'>
+      <view class='movieTitle'>
+        <text class='movieName'>西虹市首富</text>
+        <text class='viewingEffect'>3D</text>
+      </view>
+      <view class='movieScore'>
+        <text class='movieDetailText'>猫眼评分</text>
+        <text class='scoreNumber'>9.2</text>
+      </view>
+      <view class='mainPerformer'>
+        <text class='movieDetailText'>主演:</text>
+        <text class='movieDetailText'>沈腾,宋芸烨,张一鸣</text>
+      </view>
+      <view class='screenStatistics'>
+        <text class='movieDetailText'>今天</text>
+        <text class='movieDetailText'>102</text>
+        <text class='movieDetailText'>家影院放映</text>
+        <text class='movieDetailText'>2144</text>
+        <text class='movieDetailText'>场</text>
+      </view>
+    </view>
+    <text class='pay'>购票</text>
+  </button>
+
+
+</view>

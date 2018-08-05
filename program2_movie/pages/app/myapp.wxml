@@ -1,0 +1,32 @@
+<view class='container'>
+  <view class='content'>
+    <view wx:if='{{currentTab == 0}}'>
+      <movie/>
+    </view>
+    <view wx:if='{{currentTab == 1}}'>
+      <cinema/>
+    </view>
+    <view wx:if='{{currentTab == 2}}'>
+      <mine/>
+    </view>
+  </view>
+
+  <!-- 下面的三个tab -->
+  <view class='bottom-tab'>
+    <view class='tab-item {{currentTab == 0 ? "active" : ""}}' data-current="0" bindtap='switchTab'>
+      <image src='{{currentTab == 0 ? "../../resources/selectedTabMovieMap.jpg" : "../../resources/TabMovieMap.jpg"}}' class='item-img'></image>
+      <text class='item-text'>电影</text>
+    </view>
+
+    <view class='tab-item {{currentTab == 1 ? "active" : ""}}' data-current="1" bindtap='switchTab'>
+      <image src='{{currentTab == 1 ? "../../resources/selectedTabCinemaMap.jpg" : "../../resources/TabCinemaMap.jpg"}}' class='item-img'></image>
+      <text class='item-text'>影院</text>
+    </view>
+
+    <view class='tab-item {{currentTab == 2 ? "active" : ""}}' data-current="2" bindtap='switchTab'>
+      <image src='{{currentTab == 2 ? "../../resources/selectedTabMineMap.jpg" : "../../resources/TabMineMap.jpg"}}' class='item-img'></image>
+      <text class='item-text'>我的</text>
+
+    </view>
+  </view>
+</view>

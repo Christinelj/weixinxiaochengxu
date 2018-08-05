@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "onNow":"onNow/onNow",
+    "onNext":"onNext/onNext"
+  }
+}

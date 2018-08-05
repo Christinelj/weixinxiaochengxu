@@ -1,0 +1,102 @@
+/* pages/app/movie/onNow/onNow.wxss */
+
+.advertisingMap {
+  width: 100%;
+  height: 180rpx;
+  margin-top: 120rpx;
+}
+
+.prizeBackground {
+  width: 100%;
+  height: 180rpx;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  margin-top: 10rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.promotion {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.promotion::after {
+  border: none;
+}
+
+.prizeMap {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.prizetext {
+  font-size: 10pt;
+  color: gray;
+}
+
+.movieDetail {
+  width: 100%;
+  height: 200rpx;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.movieMap {
+  width: 130rpx;
+  height: 160rpx;
+  margin-right: 20rpx;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  line-height: 120%;
+}
+
+.movieTitle {
+}
+.movieScore {
+}
+.mainPerformer {
+}
+.screenStatistics {
+}
+.movieName {
+  
+}
+
+.viewingEffect {
+  background-color: rgb(69, 231, 243);
+  border-radius: 5px;
+  font-size: 10pt;
+  color:white;
+  margin-left: 10rpx;
+}
+
+.movieDetailText {
+  font-size: 10pt;
+}
+
+.scoreNumber {
+  color:#FFCC00;
+  margin-left: 10rpx;
+}
+.pay{
+  background-color: red;
+  border-radius: 5px;
+  color:white;
+  font-size: 10pt;
+  margin-left: 20%;
+  padding-left: 15rpx;
+  padding-right: 15rpx;
+}

@@ -3,5 +3,6 @@
   "usingComponents": {
     "onNow":"onNow/onNow",
     "onNext":"onNext/onNext"
-  }
+  },
+  "navigationBarTitleText": "电影演出赛事"
 }

@@ -1,0 +1,39 @@
+<!--component/cinemaList.wxml-->
+<view class='list-group'>
+  <!--左侧简介-->
+  <view class='list-left'>
+    <view class='cinemaNameAndPrice'>
+      <view class='name'>{{name}}</view>
+      <view class='price'>
+        <view class='priceNumber'>{{price}}</view>
+        <view class='priceUnit'>元起</view>
+      </view>
+    </view>
+    <text class='address'>{{address}}</text>
+    <text class='label'>{{label}}</text>
+
+    <block wx:if="{{JudgmentPreference}}">
+      <view class='discountShow'>
+        <text class='discountIcon'>{{discountIcon}}</text>
+        <text class='promotionText'>{{discount}}</text>
+      </view>
+    </block>
+    
+    <view class='promotionShow'>
+      <text class='promotionIcon'>{{promotionIcon}}</text>
+      <text class='promotionText'>{{promotion}}</text>
+    </view>
+
+    <view class='newCardPromotionShow'>
+      <text class='newCardPromotionIcon'>{{newCardPromotionIcon}}</text>
+      <text class='promotionText'>{{newCardPromotion}}</text>
+    </view>
+
+  </view>
+
+
+  <!--右侧距离-->
+  <view class='list-right'>
+    <text class='distance'>{{distance}}</text>
+  </view>
+</view>

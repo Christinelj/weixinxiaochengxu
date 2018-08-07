@@ -1,4 +1,10 @@
 {
   "component": true,
-  "usingComponents": {}
+  "usingComponents": {
+   "cinemaList":"/component/cinemaList/cinemaList"
+  },
+  "navigationBarTitleText": "影院"
 }
+
+
+

@@ -1,0 +1,122 @@
+/* component/cinemaList.wxss */
+
+:host {
+  display: block;
+  border-bottom: 1px solid #e0e0e0;
+  background-color: white;
+}
+
+.list-group {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+}
+
+.list-left {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 0 0 75%;
+  margin-left: 30rpx;
+  margin-top: 40rpx;
+  margin-bottom: 40rpx;
+}
+
+.list-right {
+  display: flex;
+  align-items: center;
+}
+
+.cinemaNameAndPrice {
+  display: flex;
+  flex-direction: row;
+}
+
+.name {
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.priceNumber {
+  color: red;
+  margin-left: 30rpx;
+}
+
+.priceUnit {
+  color: red;
+  font-size: 25rpx;
+}
+
+.address {
+  color: gray;
+  font-size: 30rpx;
+  margin-top: 10rpx;
+}
+
+.label {
+  color: yellowgreen;
+  font-size: 25rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  border-radius: 5px;
+  border: 1px solid yellowgreen;
+}
+
+.discountShow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10rpx;
+}
+
+.discountIcon {
+  font-size: 25rpx;
+  background-color: orange;
+  color: white;
+  padding: 7rpx;
+  border-radius: 5px;
+  margin-right: 10rpx;
+}
+
+.promotionText {
+  font-size: 25rpx;
+  color: gray;
+}
+
+.promotionShow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10rpx;
+}
+
+.promotionIcon {
+  font-size: 25rpx;
+  background-color: red;
+  color: white;
+  padding: 7rpx;
+  border-radius: 5px;
+  margin-right: 10rpx;
+}
+
+.newCardPromotionShow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.newCardPromotionIcon {
+  font-size: 25rpx;
+  background-color: violet;
+  color: white;
+  padding: 7rpx;
+  border-radius: 5px;
+  margin-right: 10rpx;
+}
+
+.distance {
+}

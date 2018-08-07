@@ -1,24 +1,12 @@
 <!--pages/app/movie/movie.wxml-->
 <view class='container'>
-  <view class='content'>
-    <view wx:if='{{currentTab == 0}}'>
-      <onNow/>
-    </view>
-    <view wx:if='{{currentTab == 1}}'>
-      <onNext/>
-    </view>
+
+  <view class='tab-wrapper'>
+    <view id='tableft' class='tab-left {{currentTab === 0 ? "tab-active":""}}' bindtap='switchTab'>正在上映</view>
+    <view id='tabright' class='tab-right {{currentTab === 1 ? "tab-active" : ""}}' bindtap='switchTab'>即将上映</view>
   </view>
 
-  <!-- 上面的两个tab -->
-  <view class='top-tab'>
-    <view class='tab-item {{currentTab == 0 ? "active" : ""}}' data-current="0" bindtap='switchTab'>
-      <text  class='item-text'>正在上映</text>
-    </view>
-
-    <view class='tab-item {{currentTab == 1 ? "active" : ""}}' data-current="1" bindtap='switchTab'>
-      <text  class='item-text'>即将上映</text>
-    </view>
-
-  </view>
+  <view class='content-wrapper' wx:if='{{currentTab === 0}}'><onNow/></view>
+  <view class='content-wrapper' wx:if='{{currentTab === 1}}'><onNext/></view>
 
 </view>

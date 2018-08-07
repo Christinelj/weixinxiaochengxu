@@ -1,6 +1,8 @@
 <!--pages/app/movie/onNow/onNow.wxml-->
 <view>
+  <!-- 宣传海报 -->
   <image class="advertisingMap" src="{{advertisingMapSrc}}"></image>
+  <!-- 抽奖三个链接 -->
   <view class='prizeBackground'>
     <button class='promotion'>
       <image class='prizeMap' src='{{zeroPayMovieSrc}}'></image>
@@ -16,8 +18,11 @@
     </button>
   </view>
 
+  <!-- 影片简介 此处用的button 实际应使用list -->
   <button class='movieDetail'>
+    <!-- 影片海报 -->
     <image class='movieMap' src='{{movieOneSrc}}'></image>
+    <!-- 文字介绍 -->
     <view class='introduction'>
       <view class='movieTitle'>
         <text class='movieName'>西虹市首富</text>
@@ -39,6 +44,7 @@
         <text class='movieDetailText'>场</text>
       </view>
     </view>
+    <!-- 购票按钮 -->
     <text class='pay'>购票</text>
   </button>
 

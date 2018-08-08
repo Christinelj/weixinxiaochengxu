@@ -1,1 +1,11 @@
 /* pages/app/cinema/cinema.wxss */
+
+.swiper {
+  height: 100px;
+  width: 100%;
+}
+
+.swiper-item {
+  height: 100px;
+  width: 100%;
+}

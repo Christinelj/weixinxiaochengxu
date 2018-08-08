@@ -24,6 +24,7 @@
   color: #000;
   line-height: 100rpx;
   text-align: center;
+  
 }
 
 .tab-active{

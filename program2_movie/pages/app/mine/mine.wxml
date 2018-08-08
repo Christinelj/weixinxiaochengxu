@@ -1,2 +1,68 @@
 <!--pages/app/mine/mine.wxml-->
-<text>pages/app/mine/mine.wxml</text>
+<view class='container'>
+  <view class='userInformation'>
+    <view class='userHeadPortrait'>
+      <image class='userHeadPortraitMap' src='{{userHeadPortraitMap}}'></image>
+    </view>
+
+    <view class='userNameAndLevel'>
+      <button class='membershipGrade'>
+        <text class='userName'>嗷嗷嗷</text>
+        <view class='userLevel'>
+          <image class='levelIcon'></image>
+          <text class='level'>Lv1</text>
+        </view>
+      </button>
+      <button class='improveGrowthValue'>
+        <text class='improveGrowthValuetext'>成长值</text>
+        <text class='improveGrowthValuetext'>230</text>
+        <text class='improveGrowthValuetext'>去提升▶</text>
+      </button>
+    </view>
+
+    <view class='myPrivilege'>
+      <button class='privilege'>我的特权▶</button>
+    </view>
+  </view>
+
+  <view class='myOrder'>
+    <text class='myOrderTitle'>我的订单</text>
+    <view class='orderButton'>
+      <button class='button movie'>
+        <image class='myOrderIcon' src='{{movieMap}}'></image>
+        <text class='myOrderText'>电影</text>
+      </button>
+      <view class='line'></view>
+      <button class='button show'>
+        <image class='myOrderIcon' src='{{showMap}}'></image>
+        <text class='myOrderText'>演出</text>
+      </button>
+      <view class='line'></view>
+      <button class='button match'>
+        <image class='myOrderIcon' src='{{matchMap}}'></image>
+        <text class='myOrderText'>赛事</text>
+      </button>
+      <view class='line'></view>
+      <button class='button peripheral'>
+        <image class='myOrderIcon' src='{{peripheralMap}}'></image>
+        <text class='myOrderText'>周边</text>
+      </button>
+    </view>
+  </view>
+
+  <view class='bargainForFree'>
+    <button class='bargainForFreeButton'>
+      <view class='leftMap'>
+        <image class='bargainMap' src='{{bargainMap}}'></image>
+      </view>
+      <view class='middleText'>
+        <text class='middleTextOne'>砍价免费看</text>
+        <text class='middleTextTwo'>和好友一起砍价，0元看电影</text>
+      </view>
+      <view class='rightButton'>
+        <text class='rightText'>前往砍价</text>
+      </view>
+    </button>
+  </view>
+
+</view>

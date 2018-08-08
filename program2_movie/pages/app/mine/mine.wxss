@@ -1,1 +1,209 @@
 /* pages/app/mine/mine.wxss */
+
+.container {
+  background-color: gainsboro;
+}
+
+.userInformation {
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  height: 250rpx;
+}
+
+.userHeadPortrait {
+  width: 200rpx;
+}
+
+.userHeadPortraitMap {
+  height: 150rpx;
+  width: 150rpx;
+}
+
+.userNameAndLevel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.membershipGrade {
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  color: white;
+}
+
+.membershipGrade::after {
+  border: none;
+}
+
+.userName {
+}
+
+.userLevel {
+}
+
+.levelIcon {
+  height: 10rpx;
+  width: 10rpx;
+}
+
+.level {
+  font-size: 25rpx;
+}
+
+.improveGrowthValue {
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  color: white;
+}
+
+.improveGrowthValue::after {
+  border: none;
+}
+
+.improveGrowthValuetext {
+  font-size: 30rpx;
+}
+
+.myPrivilege {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.privilege {
+  font-size: 35rpx;
+  color: white;
+  background-color: orange;
+  border-radius: 45rpx;
+}
+
+.myOrder {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.myOrderTitle {
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  margin-left: 30rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 2rpx solid gainsboro;
+}
+
+.orderButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+}
+
+.button::after {
+  border: none;
+}
+
+.line {
+  background-color: gainsboro;
+  width: 2rpx;
+  height: 80rpx;
+}
+
+.movie {
+}
+
+.show {
+}
+
+.match {
+}
+
+.peripheral {
+}
+
+.myOrderIcon {
+  height: 50rpx;
+  width: 50rpx;
+}
+
+.myOrderText {
+  font-size: 30rpx;
+}
+
+.bargainForFree {
+  background-color: white;
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+}
+
+.bargainForFreeButton {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+.bargainForFreeButton::after{
+  border: none;
+}
+
+.leftMap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+}
+
+.bargainMap {
+  width: 70rpx;
+  height: 60rpx;
+}
+
+.middleText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height:50rpx;
+  width: 60%;
+}
+
+.middleTextOne {
+}
+
+.middleTextTwo {
+  font-size: 30rpx;
+  color: gray;
+}
+
+.rightButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightText {
+  background-color: red;
+  color: white;
+  border-radius: 15rpx;
+  font-size: 30rpx;
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+}

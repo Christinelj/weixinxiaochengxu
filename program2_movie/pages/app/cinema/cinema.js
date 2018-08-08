@@ -1,14 +1,13 @@
 // pages/app/cinema/cinema.js
 Component({
   data: {
-    background: ['../../../resources/cinema/advertisingMap', 'demo-text-2', 'demo-text-3'],
-    mapOneSrc: '../../../resources/cinema/advertisingMap',
-    mapTwoSrc:'../../../resources/cinema/advertisingMap',
-    mapThreeSrc: '../../../resources/cinema/advertisingMap',
+    backgroundMap: ['../../../resources/cinema/advertisingMap.jpg',
+    '../../../resources/cinema/advertisingMap.jpg', 
+    '../../../resources/cinema/advertisingMap.jpg'],
     indicatorDots: true,
     vertical: false,
     autoplay: false,
-    circular: false,
+    circular: true,
     interval: 2000,
     duration: 500,
     previousMargin: 0,

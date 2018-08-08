@@ -12,7 +12,7 @@
     <text class='address'>{{address}}</text>
     <text class='label'>{{label}}</text>
 
-    <block wx:if="{{JudgmentPreference}}">
+    <block >
       <view class='discountShow'>
         <text class='discountIcon'>{{discountIcon}}</text>
         <text class='promotionText'>{{discount}}</text>

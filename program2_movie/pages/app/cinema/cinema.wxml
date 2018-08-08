@@ -1,20 +1,26 @@
 <!--pages/app/cinema/cinema.wxml-->
 <!--swiper滑块视图容器  -->
 <view class="container">
-  <view class="page-section">
-    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}" interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
-      <block wx:for="{{background}}" wx:key="*this">
+    <swiper  class='swiper' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}" interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
+      <block wx:for="{{backgroundMap}}" wx:key="*this">
         <swiper-item>
-        <image class='map' src='{{item}}' ></image>
-         
-         <view class="swiper-item {{item}}"></view>
+        <image class='swiper-item' src='{{item}}' ></image>
         </swiper-item>
       </block>
     </swiper>
-  </view>
 
   <!--cinemaList自定义组件引用  -->
-  <cinemaList id="cinemaList" wx:for="{{cinemaArray}}" wx:key="unique" name="{{item.name}}" price="{{item.price}}" address="{{item.address}}" distance="{{item.distance}}" label='{{item.label}}' discount='{{item.discount}}' discountIcon='{{item.discountIcon}}'
-    promotion='{{item.promotion}}' promotionIcon='{{item.promotionIcon}}' newCardPromotion='{{item.newCardPromotion}}' newCardPromotionIcon='{{item.newCardPromotionIcon}}'>
+  <cinemaList id="cinemaList" wx:for="{{cinemaArray}}" wx:key="unique" 
+  name="{{item.name}}" 
+  price="{{item.price}}" 
+  address="{{item.address}}" 
+  distance="{{item.distance}}" 
+  label='{{item.label}}' 
+  discount='{{item.discount}}' 
+  discountIcon='{{item.discountIcon}}'
+  promotion='{{item.promotion}}' 
+  promotionIcon='{{item.promotionIcon}}' 
+  newCardPromotion='{{item.newCardPromotion}}' 
+  newCardPromotionIcon='{{item.newCardPromotionIcon}}'>
   </cinemaList>
 </view>

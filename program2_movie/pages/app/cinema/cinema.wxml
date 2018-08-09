@@ -23,4 +23,6 @@
   newCardPromotion='{{item.newCardPromotion}}' 
   newCardPromotionIcon='{{item.newCardPromotionIcon}}'>
   </cinemaList>
+  
+  <view class='tabErrorCorrection'></view>
 </view>

@@ -65,4 +65,48 @@
     </button>
   </view>
 
+  <view class='cardsListBackground'>
+    <view class='cardsList'>
+      <block wx:for='{{cardsList}}' wx:key='{{item.id}}'>
+        <view class='cardsListItem'>
+          <view id='{{item.id}}'>
+            <view class='listText'>{{item.name}}</view>
+            <view class="arrow"></view>
+          </view>
+          <view class='separationLine'></view>
+        </view>
+      </block>
+    </view>
+  </view>
+
+  <view class='dreamListBackground'>
+    <view class='dreamList'>
+      <block wx:for='{{dreamList}}' wx:key='{{item.id}}'>
+        <view class='dreamListItem'>
+          <view id='{{item.id}}'>
+            <view class='listText'>{{item.name}}</view>
+            <view class="arrow"></view>
+          </view>
+          <view class='separationLine'></view>
+        </view>
+      </block>
+    </view>
+  </view>
+
+  <view class='advertisementListBackground'>
+    <view class='advertisementList'>
+      <block wx:for='{{advertisementList}}' wx:key='{{item.id}}'>
+        <view class='advertisementListItem'>
+          <view id='{{item.id}}'>
+            <view class='listText'>{{item.name}}</view>
+            <view class="arrow"></view>
+          </view>
+          <view class='separationLine'></view>
+        </view>
+      </block>
+    </view>
+  </view>
+
+  <view class='tabErrorCorrection'></view>
+
 </view>

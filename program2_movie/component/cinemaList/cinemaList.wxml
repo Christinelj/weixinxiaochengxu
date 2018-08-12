@@ -13,18 +13,18 @@
     <text class='label'>{{label}}</text>
 
     <block >
-      <view class='discountShow'>
+      <view wx:if= "{{discount.length > 0}}" class='discountShow'>
         <text class='discountIcon'>{{discountIcon}}</text>
         <text class='promotionText'>{{discount}}</text>
       </view>
     </block>
     
-    <view class='promotionShow'>
+    <view wx:if= "{{promotion.length > 0}}" class='promotionShow'>
       <text class='promotionIcon'>{{promotionIcon}}</text>
       <text class='promotionText'>{{promotion}}</text>
     </view>
 
-    <view class='newCardPromotionShow'>
+    <view wx:if= "{{newCardPromotion.length > 0}}" class='newCardPromotionShow'>
       <text class='newCardPromotionIcon'>{{newCardPromotionIcon}}</text>
       <text class='promotionText'>{{newCardPromotion}}</text>
     </view>
